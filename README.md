@@ -29,7 +29,7 @@ Develop a machine learning model to detect fraudulent transactions using a Kaggl
 ### Using SMOTE¶
 to balance the class distribution
 
-# Model Building :  Supervised
+# Model Building:  Supervised
 
 ### Benchmarking with LR Model
 - Train Accuracy: 0.9734843470048808
@@ -71,3 +71,25 @@ to balance the class distribution
 - f1Score : 81%
 
 
+# Model Building:  UnSupervised
+- Using Isolation forest
+
+  
+## Observations Of Model
+
+- original fraud-event rate is 0.1%
+
+### Setting up a contamination of 1% 
+- gets a ROC-AUC Score: 77%
+- However, precision:  9%
+- recall : 56%
+
+### Setting up a contamination of 0.1% 
+- gets a ROC-AUC Score: 58%
+- precision:  30%
+- recall : 18%
+
+### Setting up a contamination of auto
+- gets a ROC-AUC Score: 5%
+- precision:  3%
+- recall : 81%
