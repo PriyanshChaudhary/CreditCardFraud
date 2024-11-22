@@ -46,16 +46,16 @@ to balance the class distribution
 
 ## Update Metrics with XGB:
 
-### Accuracy
+#### Accuracy
 - Train Accuracy: 1.0
 - Test Accuracy: 0.99
 - Cross-Validation Accuracy: 0.99
 
-### Precision
-Train Precision: 1.0
-Test Precision: 0.82
+#### Precision
+- Train Precision: 1.0
+- Test Precision: 0.82
 
-### Recall
+#### Recall
 - Train Recall: 1.0
 - Test Recall: 0.8
 
